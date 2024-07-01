@@ -1,0 +1,48 @@
+Send me a detailed overview of the discord bot. Let me know the commands and how they work with an example
+flow for each. I need to know how the leaderboard works. I need to know how trading.js works. everything that
+you think would be important for someone to know based on what we did here today. Do not leave out any details. 
+you can also include a portion with the changes you made to the bot. Do not leave out details refrence the chat
+do not send any code I will use the code that you provided me and send it to the person who will be assisting me with
+the bot next. Be long winded in your explanation. 
+
+Make sure certain commands are admin only
+-Command to show all open trades (ID and Trader) 
+-Command to clear a text channel of all messages if applicable
+
+-Is it possible for the recommended tickers to be displayed
+when a trader is typing in a trade or act like actions like
+the trade command but they can still type if they want to.
+
+-anyway to add a border to a message?
+Can the colored portion of the embedd
+ message go all the way around
+
+-make sure buttons can only be used by the user who issued the command
+
+-tradingview alerts
+
+-when a user does /trade can the recommended buy or sell have an emoji next to it
+like green dot for buy red dot for sell? 
+
+Default embed colors should be blue.
+Trades associated with buys should be green.
+Trades associated with sells should be red.
+Other messages should have relevant colors.
+Include relevant emojis to add some flair to the messages.
+Change the announcement title to "Welcome!".
+Include the Discord server icon at the bottom of the embedded messages.
+
+node bot.js
+
+Do not send code ask any questions you may have 
+for clarification and answer my questions. 
+
+Current bugs:
+
+-Duplicate command recommendations when using the /commands I see multiples of the commands. 
+
+-Leaderboard showing as undefined lets make the leaderboard use @mentions to list the players.
+
+-The dropdown for the buy and sell options is gone I dont want them typing it I want two options.
+Either they can select Buy or Sell. 
+
